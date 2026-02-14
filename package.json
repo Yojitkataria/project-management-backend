@@ -1,0 +1,27 @@
+{
+  "name": "project-management",
+  "version": "1.0.0",
+  "description": "a project management application for beginners",
+  "keywords": [
+    "backend"
+  ],
+  "homepage": "https://github.com/Yojitkataria/project-management-backend#readme",
+  "bugs": {
+    "url": "https://github.com/Yojitkataria/project-management-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yojitkataria/project-management-backend.git"
+  },
+  "license": "ISC",
+  "author": "Yojit Kataria",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "prettier": "^3.8.1"
+  }
+}
